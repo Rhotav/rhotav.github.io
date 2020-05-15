@@ -1,6 +1,10 @@
 title: "nʞʇn's Blog"
 iconURL: assets/default-icon.png
 
+markdown: kramdown
+kramdown:
+   math_engine: mathjax
+
 
 # for a clean URL
 permalink: :slug
