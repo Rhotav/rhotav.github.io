@@ -1,4 +1,4 @@
-title: "test"
+title: "nʞʇn's Blog"
 iconURL: assets/default-icon.png
 theme: jekyll-theme-leaf
 
@@ -14,5 +14,5 @@ plugins:
  - jekyll-seo-tag
 
 ### comments & analytics
-hyvor_talk_website_id: 14
+hyvor_talk_website_id: 654
 google_analytics: UA-NNNNNNNN-N
