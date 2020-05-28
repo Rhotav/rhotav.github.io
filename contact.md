@@ -7,5 +7,3 @@ You can always contact the author of this blog via [Twitter](https://twitter.com
 
 
 or Comments...
-
-(Change this by editing `contact.md` file)
