@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Rhotav
-title: String Deobfuscation with Invoke ~ Python
+title: String Deobfuscation with Invoke ~ Python [TR]
 ---
 
 Selamlar, bu yazımda "Crypto Obfuscator" adlı yazılımın string korumasını Python'da dnlib ve Reflection ikilisini kullanarak nasıl deobfuscate edebileceğimizi anlattım. Maksat değişiklik olsun...
