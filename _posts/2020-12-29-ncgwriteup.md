@@ -7,7 +7,7 @@ title: NCG Writeup ~ MalwareNinja CTF
 Selamlar, bu yazımda MalwareNinja CTF'inde "cringe" kategorisinde yayınlanan NCG adlı sorunun çözümünü yazacağım. Önceki yazı ile birleşik olmamasının sebebi soruların ben önceki writeup'ı yazdıktan sonra açılmış olması  ::(
 (Soru yarışma sırasında patchlendi bir sebep yüzünden. Patchlenmiş soruya yazılmış bir writeup'tır.)
 
-###Göz Gezdirelim
+### Göz Gezdirelim
 Soruyu indirdiğimiz zaman gelen tek şey bir .exe dosyası hemen DIE atarak analiz edelim.
 
 ![1](https://user-images.githubusercontent.com/54905232/103244241-6e8e1400-496d-11eb-9eae-a317bc990442.png)
@@ -18,6 +18,7 @@ Yupiii .NET geldi hemen dnSpy...
 
 Dosyanın entry point noktasına gittikten sonra programda gömülü olan resources'lar içerisinde bazı xor decrypt işlemleri yapıldığını görüyoruz.
 Bu işlemden sonra bir byte array'e atılıp Assembly.Load kullanılarak bir assembly'e dönüştürülüyor ve **export edilmiş type**'lar alınıyor. Tam olarak burası, çıkan resources'ın .dll dosyası olduğunu belirtir.
+
 ![2](https://user-images.githubusercontent.com/54905232/103244302-9d0bef00-496d-11eb-9fc5-93557918fb56.png)
 
 Yapmamız gereken şey belli. İçerden çıkan .dll dosyasını analiz edebilmek için çalıştırma aşamasına bp atıp gelen array'i bellekten dump alacağız.
