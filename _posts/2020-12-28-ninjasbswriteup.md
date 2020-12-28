@@ -80,6 +80,6 @@ Hex to String işlemine sokalım
 
 > flag : malwareninja{HIGH_SKILLED_ULTIMATE_PRO_NINJA_PLUS}
 
---- Unpacking PyArmor
-https://anal.school/2020/07/30/Unpacking-pyarmor-Soder-CTF/
-https://devilinside.me/blogs/unpacking-pyarmor
+### --- Unpacking PyArmor
+> https://anal.school/2020/07/30/Unpacking-pyarmor-Soder-CTF/
+> https://devilinside.me/blogs/unpacking-pyarmor
