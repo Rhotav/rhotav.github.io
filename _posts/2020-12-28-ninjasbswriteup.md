@@ -72,13 +72,13 @@ Modülüm yüklendikten sonra CTRL+F kombinasyonu ile "You Failed" stringini ara
 
 ehehehe You Failed stringinin hemen altında YOU WIN stringini ve flagi görebiliyorum :
 
-"48 49 47 48 5f 53 4b 49 4c 4c 45 44 5f 55 4c 54 49 4d 41 54 45 5f 50 52 4f 5f 4e 49 4e 4a 41 5f 50 4c 55 53"
+> "48 49 47 48 5f 53 4b 49 4c 4c 45 44 5f 55 4c 54 49 4d 41 54 45 5f 50 52 4f 5f 4e 49 4e 4a 41 5f 50 4c 55 53"
 
 Hex to String işlemine sokalım
 
 "HIGH_SKILLED_ULTIMATE_PRO_NINJA_PLUS"
 
-flag : malwareninja{HIGH_SKILLED_ULTIMATE_PRO_NINJA_PLUS}
+> flag : malwareninja{HIGH_SKILLED_ULTIMATE_PRO_NINJA_PLUS}
 
 --- Unpacking PyArmor
 https://anal.school/2020/07/30/Unpacking-pyarmor-Soder-CTF/
