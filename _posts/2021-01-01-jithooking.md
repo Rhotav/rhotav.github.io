@@ -2,7 +2,7 @@
 layout: post
 author: Rhotav
 title: .NET Just-In-Time (JIT) Compiler Hooking
-published: false
+visible: 1
 ---
 
 Selamlar. Uzun zamandır yazı yazmamamın nedeni aslında bu yazıydı. 
