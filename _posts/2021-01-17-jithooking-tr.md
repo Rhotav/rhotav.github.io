@@ -495,6 +495,9 @@ private static unsafe int HookedCompileMethod(IntPtr thisPtr, [In] IntPtr corJit
 
 #### References
 [https://github.com/dotnet/coreclr](https://github.com/dotnet/coreclr)
+
 [https://xoofx.com/blog](https://xoofx.com/blog/2018/04/12/writing-managed-jit-in-csharp-with-coreclr/#)
+
 [https://www.mono-project.com/news/2018/09/11/csharp-jit/](https://www.mono-project.com/news/2018/09/11/csharp-jit/)
+
 [SJITHook](https://github.com/maddnias/SJITHook)
