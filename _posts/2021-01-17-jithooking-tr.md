@@ -53,6 +53,7 @@ Bunun nedeni anti-tamper fonksiyonunu silmemiş olmamız. Dosya çalıştığı 
 *API :* Application Programming Interface, işletim sisteminin kendisi ile iletişime geçmek isteyen uygulamalara sunduğu bir dizi fonksiyona verilen isimdir.
 
 *API Hooking* ise iletişim kurmak istediğimiz API ile uygulama arasına girerek API'ye giden tüm istekleri, yeniden programımız içerisinde yazdığımız API'yi birebir taklit eden sahte fonksiyona yönlendirmek oluyor. Bunu örnekler ile daha net anlatacağım.
+
 ----
 
 ### Örnek
