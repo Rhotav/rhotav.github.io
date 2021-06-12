@@ -82,7 +82,7 @@ int main()
 "*Symbols*" sekmesinden .exe dosyamı seçip "*_main*" fonksiyonuna gidiyorum ve `CreateProcessW` API'sine çağrı yaptığım noktayı buluyorum.
 ![3](https://user-images.githubusercontent.com/54905232/121784756-73aeea80-cbbe-11eb-8fb8-af421770a2f2.png)
 Şu kısım:
-{% highlight assembly %}
+{% highlight x86asm %}
 PUSH ECX
 PUSH 0
 PUSH 0
@@ -98,7 +98,7 @@ CALL DWORD PTR DS:[<&CreateProcessW>]
 
 Tamam şimdi `ENTER` butonu ile `CALL` ettiği fonksiyonu takip edip son olarak atladığı çağrıya gideceğim.
 ![4](https://user-images.githubusercontent.com/54905232/121784970-bf15c880-cbbf-11eb-8e0f-6ac4d376ab15.png)
-{% highlight assembly %}
+{% highlight x86asm %}
 PUSH 0
 PUSH DWORD PTR SS:[EBP + 2C]
 PUSH DWORD PTR SS:[EBP + 28]
